@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1354px) {
+    .row {
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .images-list {
+        list-style-type: none;
+        float: left;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+.images-list img {
+        width: 150px;
+        height: 110px;
+        border-radius: 15%;
+    }
+
+.images-list-1 {
+        margin-bottom: 15px;
+    }
+}

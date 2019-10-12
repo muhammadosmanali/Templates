@@ -1,0 +1,337 @@
+/*---------------------------------*/
+/*Basic Setup*/
+/*---------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+html,
+body {
+    background-color:  #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*---------------------------------*/
+/*Header*/
+/*---------------------------------*/
+
+header {
+    width: 100%;
+    background-image: linear-gradient(rgba(195, 195, 195, 0.8), rgba(195, 195, 195, 0.8)), url(img/IMG_4409.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* The main logo */
+
+.logo {
+    letter-spacing: -1px;
+    word-spacing: 10px;
+    margin-top: 25px;
+    display: block;
+}
+
+.logo span {
+    font-size: 150%;
+    font-weight: 300;
+    letter-spacing: -3px;
+}
+
+.logo span:hover {
+    border-bottom: 2px solid #555;
+    border-bottom-right-radius: 10px;
+}
+
+/* Main Navigation */
+
+nav {
+    float: right;
+    margin-right: 40px;
+    margin-top: -25px;
+    font-weight: 700;
+}
+
+.main-nav li{
+    list-style-type: none;
+    display: inline-block;  
+    margin-left: 40px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #555 ;
+}
+
+.main-nav a:hover, 
+.main-nav a:active {
+    border-bottom: 2px solid #555;
+    transition: border-bottom 0.5s;
+}
+
+/* Main Text */
+
+.main-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-54%, -50%);
+    width: 1140px;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-bottom: 20px;
+}
+
+.main-text span {
+    font-size: 140%;
+}
+
+.main-button {
+    text-decoration: none;
+    border: 1.2px solid white;
+    color: #555;
+    font-size: 110%;
+    font-weight: 400;
+    letter-spacing: -1px;
+    word-spacing: 4px;
+    padding: 10px 15px;
+}
+
+.main-button:hover, 
+.main-button:active {
+    background-color: rgba(85, 85, 85, 0.7);
+    color: #fff;
+    font-weight: 100;
+    transition: color, background-color, border  1s;
+    border: 1.2px solid rgba(85, 85, 85, 0.7);
+}
+
+.ion-md-compass {
+    margin-right: 5px;
+}
+
+/*---------------------------------*/
+/*Sections*/
+/*---------------------------------*/
+
+section {
+    padding: 80px 0;
+}
+
+/*---------------------------------*/
+/*Section Aims*/
+/*---------------------------------*/
+
+.section-aim {
+    background-color: #fff;
+}
+
+/* Resueable Heading */
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 250%;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    word-spacing: 5px;
+}
+
+h3:after {
+    display: block;
+    content: " ";
+    border-bottom: 1.2px solid #555;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.aim-para {
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 3px;
+    margin-top: 35px;
+}
+
+/* Further Aim Divisions */
+.aim-div {
+    margin-top: 70px;
+    background-color: #dbd6d6;
+    border-radius: 3px;   
+}
+
+.heading-aim {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.heading-aim:after {
+    content: " ";
+    border-bottom: 1.2px solid #555;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.heading-aim i{
+    margin-right: 15px;
+    font-size: 150%;
+}
+
+.aim-para-1 {
+    text-align: center;
+    margin: 40px 40px;
+}
+
+/*---------------------------------*/
+/*Section Gallery*/
+/*---------------------------------*/
+
+.section-gallery {
+    background: rgba(234, 231, 231, 0.79);
+    width: 100%;
+    height: 100%;
+}
+
+.arrow-left, 
+.arrow-right {
+    font-size: 200%;
+    cursor: pointer;
+}
+
+.arrow-left {
+    margin-left: 10%;  
+}
+
+.arrow-right {
+    margin-left: 80%;
+}
+
+.arrow-left:hover, 
+.arrow-righ:hover {
+    color: #000;
+    transition: 1s color;
+}
+
+.arrows {
+    padding: 23% 0;
+}
+
+.image-lists {
+    width: 100%;
+    max-height: 495px;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: block;
+}
+
+.dots {
+   margin: 0 120px;
+}
+
+.active-dot{
+    background-color: #d6d6d6;
+}
+
+.dot-navigation {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 10px 8px;
+    border: 2px solid #d6d6d6;
+    transition: .5s background-color;
+    display: flex;
+    float: left;
+}
+
+/*---------------------------------*/
+/*Programs*/
+/*---------------------------------*/
+
+.program-border-style {
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+    margin: 60px 15px;
+    width: 31%;
+    box-shadow: 2px 2px #c9c9c9;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.program-heading {
+    text-align: center;
+    font-size: 130%;
+    letter-spacing: -0.8px;
+    margin-top: 30px;
+    word-spacing: 2px;
+    font-weight: 300;
+}
+
+.program-list {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.program-list i {
+    margin-right: 15px;
+    font-size: 120%;
+}
+
+.sign-up-button {
+    text-align: center;
+    margin: 20px;
+}
+
+.sign-up-button a {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #d6d6d6;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 1s background-color, color, border;
+}
+
+.sign-up-button a:hover,
+.sign-up-button a:active {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+/*---------------------------------*/
+/*Contact US*/
+/*---------------------------------*/
+
+.section-contact {
+    background-color: rgba(234, 231, 231, 0.79);
+}

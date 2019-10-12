@@ -1,0 +1,172 @@
+/*---------------------------------*/
+/*Basic Setup*/
+/*---------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+
+html,
+body {
+    background-color:  #fff;
+    color: #555;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/*---------------------------------*/
+/*Reusable Components*/
+/*---------------------------------*/
+
+.rows {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/*---------------------------------*/
+/*Header*/
+/*---------------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Resources/images/toyota-967011.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #e8eaf6;
+    padding-top: 20px;
+}
+
+.nav-ul li {
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-ul li a:hover {
+    color: #93cbe5;
+    transition:color 0.5s ,border-bottom 0.5s ease-in-out;
+    border-bottom: 5px solid #93cbe5;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+.x {
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.margn-li {
+    margin-top:20px;
+}
+
+.main-heading {
+    position: absolute;
+    width: 1140px;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.main-heading h2 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    word-spacing: 20px;
+}
+
+.btn-exp {
+    padding: 6px 30px;
+    border: none;
+    font-size: 17px;
+    background-color: #4fc3f7;
+    border-radius: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color:black;
+    word-spacing: 0px;
+}
+
+
+
+.btn-exp:hover {
+    border:1px solid #4fc3f7;
+    background-color: rgba(78, 56, 23, 0.5);
+    color: white;
+    transition: background-color 0.6s;
+}
+
+/*---------------------------------*/
+/*Section Services*/
+/*---------------------------------*/
+
+.section-services {
+    background: rgba(223, 216, 238, 0.1);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-heading {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.section-heading::after {
+    display: block;
+    height: 2px;
+    background-color: #30a5ff;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*---------------------------------*/
+/*Section Games*/
+/*---------------------------------*/
+
+.pagin {
+    text-align: center;
+}
+
+.gallery {
+    width: 100%;
+    height: 100%;
+}
+

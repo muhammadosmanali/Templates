@@ -1,0 +1,503 @@
+/*---------------------------------*/
+
+/*Basic Setup*/
+
+/*---------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row {
+    max-width: 1354px;
+    margin: 0 auto;
+}
+
+/*---------------------------------*/
+
+/*Headings*/
+
+/*---------------------------------*/
+
+h1 {
+    font-weight: 400;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 200%;
+    padding-top: 15px;
+}
+
+h4 {
+    font-size: 70%;
+}
+
+h5 {
+    text-align: center;
+    font-weight: 100;
+    margin: 15px 0;
+}
+
+
+/*---------------------------------*/
+
+/*Header*/
+
+/*---------------------------------*/
+
+header {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.nav-icons li,
+.nav-icon-search li {
+    list-style: none;
+    float: left;
+    display: inline-block;
+}
+
+.nav-icons li {
+    margin: 7px 15px;
+}
+
+.nav-icon-search li {
+    margin: 7px;
+    margin-left: 78%;
+}
+
+.icon-link i {
+    color: #fff;
+    font-size: 80%;
+}
+
+.icon-link i:link,
+.icon-link i:visited {
+    display: block;
+    color: #e2e2e2;
+}
+
+.icon-link i:hover,
+.icon-link i:active {
+    color: #fafa2f;
+}
+
+/*---------------------------------*/
+
+/*Section-blog*/
+
+/*---------------------------------*/
+
+.section-blog {
+    background-color: #f4f4f4;
+    padding: 0;
+}
+
+.h2-blog {
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: -1px;
+}
+
+.h4-blog {
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-top: 10px;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+span {
+    background-color: black;
+    color: #fff;
+    padding: 4px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+/*---------------------------------
+
+/*Section-blog-image*/
+
+/*---------------------------------*/
+
+.section-blog-image {
+    background-image: url(img/blog-image.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+}
+
+.h1-blog-image {
+    position: absolute;
+    top: 95%;
+    left: 5%;
+}
+
+.h2-blog-image {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+
+.subscribe-button {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    font-size: 60%;
+    border: 1px solid #c6bebe;
+    padding: 5px;
+}
+
+.subscribe-button:hover,
+.subscribe-button:active {
+    background-color: #c6bebe;
+    color: black;
+    transition: 1.5s background-color;
+}
+
+/*---------------------------------*/
+
+/*Section-blog-post*/
+
+/*---------------------------------*/
+
+/*FIRSR BLOG POST*/
+
+.section-blog-post {
+    background-color: #f4f4f4;
+}
+
+.first-post {
+    background-color: #fff;
+    margin: 20px;
+    padding: 15px 4.79%;
+    margin-top: 40px;
+}
+
+.first-post-para {
+    font-size: 85.9%;
+    display: block;
+    padding-top: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    line-height: 145%;
+}
+
+/* Reuseable buttons i.e like and reply for first-blog-post*/
+
+.link-like-reply {
+    text-decoration: none;
+    border: 1px solid #c6bebe;
+    padding: 10px 15px;
+    font-size: 90%;
+    ;
+    color: black;
+}
+
+.link-like-reply i {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 100%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin: 0 -5px;
+}
+
+.link-like-reply:hover,
+.link-like-reply:active {
+    background-color: rgba(0, 0, 0, 0.74);
+    color: rgba(255, 255, 255, 0.88);
+    transition: 1s background-color;
+}
+
+.undo {
+    float: right;
+    margin-top: -15px;
+}
+
+
+/*SECOND BLOG POST*/
+
+.second-post {
+    background-color: #000;
+    margin-top: 40px;
+    margin-right: 20px;
+    color: #fff;
+    display: block;
+
+}
+
+/*first part*/
+
+.second-post-image1 {
+    width: 100%;
+    display: block;
+}
+
+.second-post-para {
+    margin: 15px 15px;
+}
+
+/*second part and its heading is used in further parts*/
+
+.post-heading {
+    font-size: 110%;
+    font-weight: bolder;
+    margin: 20px 15px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    display: block;
+}
+
+.user-profiles {
+    background-color: #fff;
+    border-bottom: 1px solid #e3dada;
+    color: #000;
+}
+
+.user-image {
+    width: 50px;
+    height: 50px;
+    margin: 18px 15px;
+    display: inline-block;
+    float: left;
+}
+
+.user-review,
+.user-name {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 85%;
+    margin-left: 10px;
+}
+
+.user-name {
+    margin-top: 17px;
+}
+
+.user-review {
+    margin-top: 10px;
+}
+
+/*third part*/
+
+.advertisement {
+    background-color: #fff;
+}
+
+.ad-banner {
+    text-align: center;
+    background-color: #e5dfdf;
+    color: #000;
+    margin: 15px 15px;
+    padding: 70px 50px;
+}
+
+/*fourth part*/
+
+.tags-div-1 {
+    background-color: #fff;
+    color: #000;
+    word-spacing: 10px;
+}
+
+.tags-div-2 {
+    margin: 15px 15px;
+}
+
+.h4-tags-1 {
+    list-style-type: none;
+    font-size: 75%;
+    color: #fff;
+    border: 1px solid black;
+    background-color: #000;
+    width: 17%;
+    letter-spacing: 1px;
+    padding: 5px 6px;
+}
+
+.h4-tags-2 {
+    list-style-type: none;
+    background-color: #d1c9c9;
+    margin-left: 15px;
+    font-size: 60%;
+    margin-top: 5px;
+    padding: 3px 4px;
+}
+
+.list-item {
+    float: left;
+}
+
+.list-items {
+    float: left;
+    margin-top: 15px;
+}
+
+.u {
+    margin-left: 0;
+}
+
+/*fifth part*/
+
+.inspiration-images {
+    background-color: #fff;
+}
+
+.images-list {
+    list-style-type: none;
+    float: left;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.images-list img {
+    width: 180px;
+    height: 130px;
+    border-radius: 15%;
+}
+
+.images-list-1 {
+    margin-bottom: 15px;
+}
+
+/*sixth part*/
+
+.follow-me-icons {
+    background-color: #fff;
+}
+
+.logos {
+    list-style-type: none;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.logos i {
+    color: black;
+    font-size: 150%;
+    margin-left: 15px;
+}
+
+.logos i:hover, 
+.logos i:active {
+    color: #b5b3b3;
+    transition: 0.5s color;
+}
+
+/*Seventh part*/
+
+.subscribe-div {
+    background-color: #fff;
+    color: #000;
+    padding: 15px 15px;
+}
+
+.subscribe-div p {
+    font-size: 80%;
+    word-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+.txtEmail {
+    width: 100%;
+    height: 35px; 
+    font-size: 90%;
+    display: block;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.btnSubscribe {
+    font-weight: 100;
+    border: 1px solid rgba(244, 7, 61, 0.94);
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+    background-color: rgba(244, 7, 61, 0.94);
+}
+
+.btnSubscribe:hover, 
+.btnSubscribe:active {
+    background-color: #cec4c4;
+    border: 1px solid #cec4c4;
+    color: #000;
+    transition: 1s background-color;
+}
+
+/*---------------------------------*/
+
+/*Footer*/
+
+/*---------------------------------*/
+
+footer {
+    background-color: gray;
+}
+
+.footer-div {
+    padding: 40px 30px;
+}
+
+footer a {
+    text-decoration: none;
+    border: 1px solid black;
+    color: #fff;
+    padding: 15px 25px;
+    background-color: #000;
+    font-size: 90%;
+    word-spacing: 3px;
+}
+
+footer i {
+    margin-right: 15px;
+}
+
+footer a:hover, 
+footer a:active {
+    background-color: #bcb9b9;
+    color: #000;
+    border: 1px solid #a5a0a0;
+    transition: 1s background-color;
+}

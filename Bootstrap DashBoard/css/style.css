@@ -1,0 +1,176 @@
+
+body {
+  background: #f4f4f4;
+}
+
+.navbar {
+  min-height: 33px !important;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar-nav li a,
+ .navbar-brand {
+  padding-top: 6px !important;
+  padding-bottom: 0 !important;
+  height: 33px;
+}
+
+.navbar-default {
+  background-color: #ee6c32;
+  border-color: #e87d18;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #c6f2e2;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #c6f2e2;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #ee6c32;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #c6f2e2;
+  background-color: #e87d18;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+  background-color: #e87d18;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #c6f2e2;
+  background-color: #e87d18;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #c6f2e2;
+  background-color: #e87d18;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #c6f2e2;
+  background-color: #e87d18;
+}
+.navbar-default .navbar-toggle {
+  border-color: #e87d18;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #e87d18;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #c6f2e2;
+}
+
+/*Custom*/ 
+
+.main-color-bg {
+  background-color: #ee6c32 !important;
+  border-color: #e87d18 !important;
+  color: white !important;
+}
+
+/* Header*/
+
+#header {
+  background: #333333;
+  color: #ffffff; 
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#header .create {
+  padding-top: 20px;
+}
+
+/* breadcrumb*/
+
+.breadcrumb {
+  background: #cccccc;
+  color: #333333;
+}
+
+.breadcrumb a {
+  color: #333333;
+}
+
+/* Progress Bar */
+
+.progress-bar {
+  background: #333333;
+  color: #ffffff;
+}
+
+.dash-box {
+  text-align: center;
+}
+
+/*Prescrition Class*/
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+h6 {
+  float: right;
+  margin-top: -26px;
+}
+
+.any {
+  border: 1px solid #000;
+  width: 85%;
+}
+
+header {
+  background-color: #30a5ff;
+}
+
+section {
+  background-color: #ccc;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c6f2e2;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c6f2e2;
+    background-color: #e87d18;
+  }
+}
